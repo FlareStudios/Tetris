@@ -32,6 +32,7 @@
 		F45EE3321B9D21D8008EC441 /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45EE3311B9D21D8008EC441 /* JShape.swift */; };
 		F45EE3341B9D21F0008EC441 /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45EE3331B9D21F0008EC441 /* SShape.swift */; };
 		F45EE3361B9D220F008EC441 /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45EE3351B9D220F008EC441 /* ZShape.swift */; };
+		F4AB78011B9D3B7D00394F5F /* Tetris.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AB78001B9D3B7D00394F5F /* Tetris.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		F45EE3311B9D21D8008EC441 /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
 		F45EE3331B9D21F0008EC441 /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
 		F45EE3351B9D220F008EC441 /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
+		F4AB78001B9D3B7D00394F5F /* Tetris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tetris.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				F45EE3231B9CE41C008EC441 /* Array2D.swift */,
 				F45EE3251B9CEB95008EC441 /* Block.swift */,
 				F45EE3271B9CF3B0008EC441 /* Shape.swift */,
+				F4AB78001B9D3B7D00394F5F /* Tetris.swift */,
 				F45EE3291B9D1B75008EC441 /* SquareShape.swift */,
 				F45EE32B1B9D1E28008EC441 /* TShape.swift */,
 				F45EE32D1B9D215F008EC441 /* LineShape.swift */,
@@ -279,6 +282,7 @@
 			files = (
 				F45EE3301B9D21C3008EC441 /* LShape.swift in Sources */,
 				F45EE32A1B9D1B75008EC441 /* SquareShape.swift in Sources */,
+				F4AB78011B9D3B7D00394F5F /* Tetris.swift in Sources */,
 				F45EE2E81B9CDA8A008EC441 /* GameScene.swift in Sources */,
 				F45EE3321B9D21D8008EC441 /* JShape.swift in Sources */,
 				F45EE3281B9CF3B0008EC441 /* Shape.swift in Sources */,
@@ -485,6 +489,7 @@
 				F45EE3031B9CDA8A008EC441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F45EE3041B9CDA8A008EC441 /* Build configuration list for PBXNativeTarget "TetrisTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				F45EE3061B9CDA8A008EC441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
